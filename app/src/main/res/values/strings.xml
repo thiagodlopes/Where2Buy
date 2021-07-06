@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Where2Buy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_market">Cadastrar Mercado</string>
+    <string name="add_market_name">Nome do Mercado</string>
+    <string name="save_market">Adicionar Mercado</string>
+    <string name="added_market">Mercado adicionado com sucesso</string>
+    <string name="error">%1$s</string>
 </resources>

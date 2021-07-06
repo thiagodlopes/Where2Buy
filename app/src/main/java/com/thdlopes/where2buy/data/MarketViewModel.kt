@@ -1,11 +1,9 @@
-package com.thdlopes.where2buy.ui
+package com.thdlopes.where2buy.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.firebase.database.FirebaseDatabase
-import com.thdlopes.where2buy.data.Market
-import com.thdlopes.where2buy.data.NODE_MARKETS
 import java.lang.Exception
 
 class MarketViewModel: ViewModel() {
@@ -17,6 +15,7 @@ class MarketViewModel: ViewModel() {
 
     fun addMarket(market: Market){
         market.id = dbmarkets.push().key
+
         dbmarkets.child(market.id!!).setValue(market).addOnCompleteListener{
             if(it.isSuccessful){
                 _result.value = null

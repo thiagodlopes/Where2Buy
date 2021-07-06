@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467331049658",
+    "project_id": "where2buy-cce24",
+    "storage_bucket": "where2buy-cce24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467331049658:android:06970d420d68d478083a83",
+        "android_client_info": {
+          "package_name": "com.thdlopes.where2buy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467331049658-uh5sbr5idnpnt16g6lk6ulsa2p1jmc00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcJjIm9UhcKmyeizRqTAgCSoWCeSa_UFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467331049658-uh5sbr5idnpnt16g6lk6ulsa2p1jmc00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
