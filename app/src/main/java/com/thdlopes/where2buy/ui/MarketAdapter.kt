@@ -15,11 +15,18 @@ class MarketAdapter: RecyclerView.Adapter<MarketAdapter.ViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.binding.textViewName.text = markets[position].name
     }
 
     override fun getItemCount(): Int {
         return markets.size
+    }
+
+    fun addMarket(market: Market){
+        if (!markets.contains(market)){
+            markets.add(market)
+        }
+        notifyDataSetChanged()
     }
 
     inner class ViewHolder(val binding: RecyclerViewMarketBinding): RecyclerView.ViewHolder(binding.root)
