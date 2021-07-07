@@ -7,4 +7,7 @@
     <string name="save_market">Adicionar Mercado</string>
     <string name="added_market">Mercado adicionado com sucesso</string>
     <string name="error">%1$s</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="signin_message">Bem-vindo(a) ao Where2Buy. Para continuar faça login com uma conta Google.</string>
 </resources>
